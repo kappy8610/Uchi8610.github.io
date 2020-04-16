@@ -3,92 +3,216 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
     <title>Uchi8610's site</title>
   </head>
   <body>
-    <head>
+    <header>
       <ul>
-        <li>Profile</li>
-        <li>Hobby</li>
-        <li>Skill</li>
-        <li>Work</li>
-        <li>Proud</li>
-        <li>Contact</li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#hobby">Hobby</a></li>
+        <li><a href="#skill">Skill</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#proud">Proud</a></li>
       </ul>
-    </head>
-    <body>
-      <div>
+    </header>
+    
+    <main>
+      
+      <div class="top">
+        <img src="img/top.jpg" alt="トップ画像">
         <h1>Uchi8610</h1>
       </div>
-      <div>
+      
+      <div class="profile" id="profile">
         <h2>Profile</h2>
-        <table>
-          <tr>
-            <th>名前</th>
-            <td>Uchi8610</td>
-          </tr>
-          <tr>
-            <th>学歴</th>
-            <td>大学・メディア情報学科・在学中</td>
-          </tr>
-          <tr>
-            <th>出身</th>
-            <td>富山県</td>
-          </tr>
-          <tr>
-            <th>所在</th>
-            <td>石川県</td>
-          </tr>
-          <tr>
-            <th>好きな食べ物</th>
-            <td>おばちゃんが作ったキュウリの漬物</td>
-          </tr>
-          <tr>
-            <th>Twitter</th>
-            <td><a href="https://twitter.com/kappy8610">@kappy</a></td>
-          </tr>
-          <tr>
-            <th>Github</th>
-            <td><a href="https://github.com/Uchi8610">Uchi8610</a></td>
-          </tr>
-        </table>
+        <div class="container">
+          <img src="img/MyIcon.png" alt="アイコン画像">
+          <table>
+            <tr>
+              <th>名前</th>
+              <td>Uchi8610</td>
+            </tr>
+            <tr>
+              <th>学歴</th>
+              <td>大学在学中</td>
+            </tr>
+            <tr>
+              <th>出身</th>
+              <td>富山県</td>
+            </tr>
+            <tr>
+              <th>所在</th>
+              <td>石川県</td>
+            </tr>
+            <tr>
+              <th>好物</th>
+              <td>おばちゃんが作ったキュウリの漬物</td>
+            </tr>
+            <tr>
+              <th>嫌い</th>
+              <td>全角英数</td>
+            </tr>
+            <tr>
+              <th>Twitter</th>
+              <td><a href="https://twitter.com/kappy8610">@kappy8610</a></td>
+            </tr>
+            <tr>
+              <th>Github</th>
+              <td><a href="https://github.com/Uchi8610">Uchi8610</a></td>
+            </tr>
+          </table>
+        </div>
       </div>
-      <div>
+      
+      <div class="main_black hobby" id="hobby">
         <h2>Hobby</h2>
-        <div>
-          <h3>アナログゲーム</h3>
-        </div>
-        <div>
-          <h3>デジタルゲーム</h3>
-        </div>
-        <div>
-          <h3>読書</h3>
+        <div class="container">
+          <div>
+            <h3>アナログゲーム</h3>
+            <ul>
+              <li>TRPG</li>
+              <ul>
+                <li>アリアンロッド2e</li>
+                <p>王道ファンタージーバトルTRPG</p>
+                <li>ダブルクロス3rd</li>
+                <p>封印された右眼が疼く、厨二病現代バトル</p>
+                <li>ギャップおじさん</li>
+                <p>普段はダサい、けどいざとなれば格好いいイケオジ</p>
+              </ul>
+              <li>ボードゲーム</li>
+              <ul>
+                <li>MONOPOLY</li>
+                <p>他プレイヤーから金をむしり取って破産させろ</p>
+                <li>カルカソンヌ</li>
+                <p>ルールは単純、奥は深い</p>
+              </ul>
+            </ul>
+          </div>
+          <div>
+            <h3>デジタルゲーム</h3>
+            <ul>
+              <li>流星のロックマン</li>
+              <p>いつやっても面白い</p>
+              <li>ファイアーエムブレム</li>
+              <p>仲間が死んだら数日間、生きる気力がなくなる</p>
+              <li>イナズマイレブン</li>
+              <p>なんだろう、こう……懐かしき思い出？</p>
+              <li>ドラゴンクエスト</li>
+              <p>9を何十周やったかわからない</p>
+              <li>Fate stay/nigth</li>
+              <p>神。</p>
+            </ul>
+          </div>
+          <div>
+            <h3>ノベル</h3>
+            <ul>
+              <li>Web</li>
+              <ul>
+                <li>無職転生</li>
+                <p>言わずと知れた名作。もう一つの人生</p>
+                <li>精霊幻想記</li>
+                <p>はじめて主人公が失恋する小説読んだ。泣いた</p>
+                <li>異世界迷宮の最深部を目指そう</li>
+                <p>最大の欠点：いいシーンは目が霞んで読めないこと。何回読んでも泣く</p>
+                <li>世界の闇と戦う秘密結社がないから作った(半ギレ)</li>
+                <p>男の子の夢と現実が詰まってる。なんで俺の妄想の内容しってるの？</p>
+                <li>グラジオラスは曲がらない</li>
+                <p>終盤の盛り上がりがとてつもない。泣いた</p>
+              </ul>
+              <li>書籍</li>
+              <ul>
+                <li>妹さえいればいい。</li>
+                <p>読者を主人公にしてくれる教本</p>
+                <li>りゅうおうのおしごと！</li>
+                <p>最高にアツいバトル物</p>
+              </ul>
+            </ul>
+          </div>
         </div>
       </div>
-      <div>
+      
+      <div class="skill" id="skill">
         <h2>Skill</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Ruby(Ruby on Rails)</li>
-          <li>Java</li>
-          <li>C</li>
-          <li>VRoid</li>
-        </ul>
+        <div>
+          <h3>★　★　★</h3>
+          <div class="name">
+            <img src="img/Java.png" alt="Java画像">
+            <p>Java</p>
+          </div>
+          <div class="name">
+            <img src="img/android.png" alt="App Inventor画像">
+            <p>App inventer 2</p>
+          </div>
+        </div>
+        
+        <div>
+          <h3>　★　★　</h3>
+          <div class="name">
+            <img src="img/html.png" alt="HTML画像">
+            <p>HTML</p>
+          </div>
+          <div class="name">
+            <img src="img/css.png" alt="CSS画像">
+            <p>CSS</p>
+          </div>
+          <div class="name">
+            <img src="img/rails.png" alt="Ruby on Rails 画像">
+            <p>Ruby(Ruby on Rails)</p>
+          </div>
+          <div class="name">
+            <img src="img/VRoid.jpg" alt="VRoid画像">
+            <p>VRoid</p>
+          </div>
+        </div>
+        
+        <div>
+          <h3>　　★　　</h3>
+          <div class="name">
+            <img src="img/C.png" alt="C画像">
+            <p>C</p>
+          </div>
+          <div class="name">
+            <img src="img/JavaScript.png" alt="JavaScript画像">
+            <p>JavaScript</p>
+          </div>
+        </div>
       </div>
-      <div>
+      
+      <div class="main_black" id="work">
         <h2>Work</h2>
         <p>ここに、いっぱい書きたいな……</p>
       </div>
-      <div>
+      
+      <div class="proud" id="proud">
         <h2>Proud</h2>
-        <p>全国高校教育産業フェア石川大会 javaプログラミングコンテスト：第四位</p>
-        <p>javaプログラミングコンテスト：高校生部門優勝、総合三位</p>
-        <p>全高校生e-sports選手権大会：一回戦突破</p>
-        <p>ビジネスプランコンテスト「SPARK」：最優秀賞</p>
+        <table>
+          <tr>
+            <td>全国高校教育産業フェア石川大会 javaプログラミングコンテスト</td>
+            <td>第四位</td>
+          </tr>
+          <tr>
+            <td>javaプログラミングコンテスト</td>
+            <td>高校生部門優勝、総合三位</td>
+          </tr>
+          <tr>
+            <td>全高校生e-sports選手権大会</td>
+            <td>一回戦突破</td>
+          </tr>
+          <tr>
+            <td>ビジネスプランコンテスト「SPARK」</td>
+            <td>最優秀賞</td>
+          </tr>
+        </table>
       </div>
-    </body>
-    <footer></footer>
+    </main>
+    
+    <footer>
+      <div id="pagetop"><i class="fas fa-chevron-circle-up"></i>
+      </div>
+    </footer>
+    <script type="text/Javascript" src="index.js"></script>
   </body>
-</html>
+  </html>
+  
