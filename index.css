@@ -197,3 +197,9 @@ footer div {
   font-size: 3rem;
   text-shadow: 2px 2px 1px gray;
 }
+
+footer div:hover{
+  bottom: 4.5%;
+  left: 95.1%;
+  text-shadow: none;
+}
