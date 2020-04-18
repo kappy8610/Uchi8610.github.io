@@ -152,6 +152,11 @@ main > div {
   text-align: left;
 }
 
+.skill h3 {
+  width: 64px;
+  margin: auto;
+}
+
 .skill .name {
   display: inline-block;
   margin: 0 2rem;
@@ -174,6 +179,25 @@ main > div {
   position: absolute;
   left: 20%;
   font-size: 3rem;
+}
+
+.work .container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.work img {
+  height: 15rem;
+}
+
+.work a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.work a:hover {
+  opacity: 0.5;
 }
 
 .proud {
