@@ -1,7 +1,7 @@
 # 自己紹介サイト
 
 ## URL
-https://uchi8610.github.io/
+https://kappy8610.github.io/
 
 ## 内容
 - 自己紹介
