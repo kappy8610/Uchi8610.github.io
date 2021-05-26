@@ -188,6 +188,10 @@ main > div {
   flex-wrap: wrap;
 }
 
+.work .container div{
+  margin: auto 2em;
+}
+
 .work img {
   height: 15rem;
 }
